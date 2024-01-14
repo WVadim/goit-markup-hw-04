@@ -308,8 +308,11 @@ img {
 }
 .team-item:focus .team-icon-link{
         background-color: #404BBF;
-
 }
+.team-icon-link:focus {
+background-color: #404BBF;
+} 
+
 .team-head {
     color:#2E2F42;
     font-size: 36px;

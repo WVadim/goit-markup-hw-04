@@ -306,7 +306,7 @@ img {
 .team-item:hover .team-icon-link {
     background-color: #404BBF;
 }
-.team-item:focus .team-icon-link {
+.team-item:focus {
         background-color: #404BBF;
 
 }
@@ -405,7 +405,6 @@ img {
 .portfolio-list:hover .portfolio-cover-text {
     transform: translateY(0%);
 }
-
 .portfolio-cover {
     position: relative;
     overflow: hidden;
@@ -425,7 +424,7 @@ img {
     height: 100%;
     width: 100%;
     transform: translateY(100%);
-    transition: color #f4f4fd;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
